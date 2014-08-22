@@ -4,7 +4,7 @@ MAINTAINER Diego Gabriel <marcondesdddi@gmail.com>
 
 RUN apt-get update -y
 RUN apt-get upgrade -y
-RUN apt-get install vim git
+RUN apt-get install -y vim git
 
 # Supervisor
 RUN apt-get install -y supervisor git
